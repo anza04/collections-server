@@ -107,6 +107,11 @@ app.delete('/items/:id', async (req, res) => {
     res.json({ message: 'Item deleted' });
 });
 
+/** TEST ROUTES **/
+app.get('/test/', async(req, res)=>{
+    res.json({ message: 'server running' });
+})
+
 /** START SERVER **/
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
