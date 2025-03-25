@@ -10,7 +10,7 @@ const {
 } = require('./db_crud_operations');
 
 const app = express();
-const port = 3000;
+const port = 3306;
 
 app.use(bodyParser.json());
 
