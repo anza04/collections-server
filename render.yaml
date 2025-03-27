@@ -14,5 +14,5 @@ services:
       - key: DATABASE_NAME
         value: CollectionApp
       - key: PORT
-        value: 3000
+        value: 3306
     plan: free
