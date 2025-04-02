@@ -2,7 +2,7 @@ const mysql = require('mysql2/promise');
 
 // Database connection
 const pool = mysql.createPool({
-    host: 'localhost',
+    host: '127.0.0.1',
     user: 'dbUser',
     password: 'F3d3r1c0', // Change according to your setup
     database: 'collectionApp_db',
